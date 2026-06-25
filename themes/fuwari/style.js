@@ -620,9 +620,9 @@ const Style = () => {
   color: #c6421f !important;
 }
 
-#theme-fuwari .fuwari-navbar a:first-child {
-  color: #c6421f !important;
-  font-weight: 800;
+#theme-fuwari .fuwari-navbar a {
+  color: #374151 !important;
+  font-weight: 700;
 }
   `}</style>
 }
