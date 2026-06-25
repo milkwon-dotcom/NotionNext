@@ -603,6 +603,27 @@ const Style = () => {
       from { opacity: 0; transform: translateY(8px); }
       to { opacity: 1; transform: none; }
     }
+
+    /* Custom navbar style for MyChinaGuide */
+#theme-fuwari .fuwari-navbar {
+  background: rgba(255, 250, 246, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  box-shadow: 0 10px 32px rgba(80, 28, 12, 0.12);
+}
+
+#theme-fuwari .fuwari-navbar a {
+  color: #4b5563 !important;
+  font-weight: 700;
+}
+
+#theme-fuwari .fuwari-navbar a:hover {
+  color: #c6421f !important;
+}
+
+#theme-fuwari .fuwari-navbar a:first-child {
+  color: #c6421f !important;
+  font-weight: 800;
+}
   `}</style>
 }
 
